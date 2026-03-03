@@ -9,7 +9,7 @@ Bu proje, montaj hattında "tanımsız" konumda bulunan parçaların sentez ve a
 * **Hata Minimizasyonu:** Manuel veri girişi ve hesaplama hataları otomatik "Stoklama Çeşidi Alert" sistemiyle engellendi.
 
 ## Teknik Mimari ve Veri Kaynakları
-* Proje, 3 farklı ana veri kaynağını entegre ederek çalışır:
+Proje, 3 farklı ana veri kaynağını entegre ederek çalışır:
 
 * **Fazla Stok Sayımı Verileri:** Güncel stok ve debord adetleri.
 
@@ -18,7 +18,7 @@ Bu proje, montaj hattında "tanımsız" konumda bulunan parçaların sentez ve a
 * **Adres Çalışması Verileri:** Hat kenarı (LBC) yerleşim bilgileri.
 
 ## Hesaplama Algoritmaları (7 Kritik Sütun)
-* Sistem, ham verileri işleyerek aşağıdaki 7 metriği otomatik olarak hesaplar:
+Sistem, ham verileri işleyerek aşağıdaki 7 metriği otomatik olarak hesaplar:
 
 * **emb/j (Günlük Ambalaj Tüketimi):** [Ortalama Tüketim] / ([Ambalaj İçi Adet] / [Adres Sayısı]) formülü ile hat kenarı akış hızı belirlenir.
 
